@@ -1,0 +1,107 @@
+@import url("https://use.typekit.net/jmk3xov.css");
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+:root {
+  --dark-bg: rgba(15, 15, 15, 0.95);
+  --spacing: 350px;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+main {
+  width: 100vw;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+h1, h2, h3, blockquote {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+  header {
+    background: var(--dark-bg);
+    grid-column: 2 / span 5;
+    padding: 2rem;
+    font-size: 48px;
+    text-shadow: 2px 2px 0 #333, 3px 3px 0 #444, 4px 4px 0 #555, 5px 5px 0 #666, 6px 6px 0 #777, 7px 7px 0 #888;
+    margin-bottom: var(--spacing);
+    border-radius: 3rem;
+  }
+
+  section {
+    grid-column: 2 / 8;
+    padding: 1rem;
+    background: var(--dark-bg);
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: var(--spacing);
+    border-radius: 3rem;
+  }
+
+  blockquote {
+    font-size: 2rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 2rem;
+    grid-column: 2 / span 9;
+    margin-bottom: var(--spacing);
+    background-clip: border-box;
+  }
+  
+  blockquote p {
+    border: 4px solid black;
+    color: black;
+    background-color: lightblue;
+    font-size: 3rem;
+    display: inline;
+    line-height: 1.35;
+    margin: 0;
+    padding: 1rem;
+    border-radius: 2rem;
+    white-space: nowrap;
+  }
+
+  .left {
+    grid-column: 6 / 12;
+  }
+
+  
