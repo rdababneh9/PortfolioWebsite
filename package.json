@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "type": "module",
-    "start": "node main.mjs",
+    "start": "node main.js",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
