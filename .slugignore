@@ -1,0 +1,8 @@
+# Ignore all files except those needed for the build process
+*
+!/
+!package.json
+!node_modules/
+!/dist/
+!/public/
+!style.css
