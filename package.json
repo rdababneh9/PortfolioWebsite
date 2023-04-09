@@ -1,9 +1,9 @@
 {
   "name": "three-demo",
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "type": "module",
-    "start": "node main.mjs",
+    "start": "node main.js",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
@@ -14,5 +14,4 @@
   "dependencies": {
     "three": "^0.128.0"
   }
-  
 }
